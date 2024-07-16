@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel-status {
+  display: none !important;
+}
+
+.select-wrapper {
+  content: url('https://cdn-jnjbn.nitrocdn.com/GWDIEzxFkLCKQMTJOvFMAOCVLqdGBlyP/assets/images/optimized/rev-4de30eb/www.nationaldebtrelief.com/wp-content/uploads/2022/07/Dropdown_icon.svg');
+  display: flex;
+  position: absolute;
+  padding: 1px 10px;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-left: 1px solid #1f2147;
+  height: 60%;
+  width: 40px;
+  background: rgb(232, 229, 229);
+  pointer-events: none;
+}
+
+.control-arrow.control-prev,
+.control-arrow.control-next {
+  height: fit-content !important;
+  margin: auto !important;
+  border-radius: 100% !important;
+  border: 2px solid gray !important;
+  padding: 0 10px !important;
+  font-size: 1.5rem !important;
+  color: #1f2147 !important;
+}
+
+.control-arrow.control-next {
+  margin-right: 15px !important;
+  padding-left: 12px !important;
+}
+
+.control-arrow.control-prev {
+  margin-left: 15px !important;
+  padding-right: 12px !important;
+}
+
+ul.slider.animated li {
+  /* filter: blur(2px); */
+  opacity: 0.5;
+}
+
+ul.slider.animated li.slide.selected {
+  filter: none !important;
+  transition: all 0.3s ease-out;
+  opacity: 1;
+}
+
+div.testimonial .control-arrow.control-next,
+div.testimonial .control-arrow.control-prev {
+  height: 80px !important;
+  width: 80px !important;
+  border-radius: 0 !important;
+  margin: auto !important;
+  padding: 0 10px !important;
+  font-size: 1.5rem !important;
+  background-color: #0074e0 !important;
+  opacity: 1 !important;
+  border: none !important;
+}
+
+div.testimonial .carousel .control-arrow::before {
+  /* content: ''; */
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.control-dots li {
+  background-color: black !important;
+  width: 12px !important;
+  height: 12px !important;
+  bottom: -5px !important;
+  z-index: 100 !important;
+  color: black;
+}
+.control-dots .dot {
+  color: #1f2147;
+}
+
+div.reading .control-arrow.control-next,
+div.reading .control-arrow.control-prev {
+  height: 80px !important;
+  width: 80px !important;
+  margin: auto !important;
+  padding: 0 10px !important;
+  font-size: 1.5rem !important;
+  background-color: #0074e0 !important;
+  opacity: 1 !important;
+  border: none !important;
+}
+
+div.reading .carousel .control-arrow::before {
+  /* content: ''; */
+  width: 20px !important;
+  height: 20px !important;
+}
